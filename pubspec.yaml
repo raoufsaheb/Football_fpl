@@ -1,0 +1,51 @@
+name: football
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+  intl: ^0.18.1
+  draggable_home: ^1.0.2
+  premier_league_fantasy: ^0.0.33
+  appbar_animated: ^0.0.3
+  timeline_tile: ^2.0.0
+  material_design_icons_flutter: ^7.0.7296
+  animated_notch_bottom_bar: ^1.0.0
+  shared_preferences: ^2.2.0
+  flutter_staggered_grid_view: ^0.7.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: fonts/Cairo-Regular.ttf
+        - asset: fonts/Cairo-Light.ttf
+        - asset: fonts/Cairo-Medium.ttf
+
